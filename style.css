@@ -1,0 +1,405 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;/*kuch naya*/
+}
+
+#navbar{
+    height: 60px;
+    background-color: #131921;
+    ;
+    color: white;
+    display: flex;
+    align-items: center ;
+    justify-content: space-evenly;
+}
+.navlogo{
+    height: 40px;
+    width: 150px;
+    padding-top: 5px;
+}
+.logo{
+    background-image: url(Amazon-Logo-White-PNG-Image.png);
+    background-size: cover;
+    height: 50px;
+    width: 150px;
+
+}
+.border{
+    border: solid  2px transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.nav-search{
+    background-color: pink;
+    justify-content: space-evenly;
+    display: flex;
+    height: 40px;
+    width: 700px;
+    border-radius:4px ;
+}
+.search-icon{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    height: 40px;
+    width: 70px;
+    background-color:rgb(240,191,76) ;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content:center ;
+    /*the two lines abv are used to bring the search icon to the middle*/
+    align-items:center;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none
+}
+.inputclass1{
+    width: 1200px;
+    border: none;
+}
+.search-select{
+    width: 100px;
+}
+/*new start resume*/
+.usalogo{
+    position: relative;
+    width: 30px;
+    height: 40px;
+    top: 10px;
+
+}
+.lang{
+    width:90px;
+    height: 50px;
+}
+.select-lang{
+    position:relative;
+    top:-5px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    background: rgb(15, 17, 17);
+    color: white;
+    border-radius: 2px;
+}
+.hellosignin{
+    font-size: 0.85rem;
+}
+.select-accnlists{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color:rgb(15, 17, 17) ;
+    border: none;
+}
+.returns{
+    font-size: 0.85rem;
+}
+.orders{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*SUBNAVBAR*/
+
+#sub-navbar{
+    height: 50px;
+    background-color: rgb(35, 47, 62);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.list{
+    align-content: center;
+    display: inline;
+    margin-right: 10px;
+
+}
+.alloptions{
+    display: flex;
+    align-items: center;
+}
+.deal{
+    align-content: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.alloptions p{
+    display: inline;
+    margin-right: 20px;
+}
+
+/*WEBPAGE*/
+.webpage{
+    background-image: url("bgimg7.jpg");
+    background-size: contain;
+    height: 500px;
+    animation-name: newanimation1;
+    animation-delay: 9s;
+    animation-duration: 9s;
+    animation-iteration-count:infinite;
+}
+@keyframes newanimation1 {
+    from{background-image: url(bgimg7.jpg);}
+    to{background-image: url(bgimg5.jpg);}  
+}
+
+
+.webpage div{
+  background-color: beige;
+}
+.box1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    position: absolute;
+    background-color: white;
+    color: black;
+    height:405px;
+    width: 350px;
+    margin-left:25px;
+    margin-top: 250px;
+    padding-left: 10px;
+    background-color: aquamarine;
+}
+.box2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    position: absolute;
+    background-color: white;
+    color: black;
+    height:390px;
+    width: 350px;
+    margin-left: 400px;
+    margin-top: 250px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.box3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    position: absolute;
+    background-color: white;
+    color: black;
+    height:390px;
+    width: 350px;
+    margin-left: 775px;
+    margin-top: 250px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.box4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    position: absolute;
+    background-color: white;
+    color: black;
+    height:390px;
+    width: 350px;
+    margin-left:25px;
+    margin-top:690px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.box5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    position: absolute;
+    background-color: white;
+    color: black;
+    height:390px;
+    width: 350px;
+    margin-left:400px;
+    margin-top:690px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.box6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    position: absolute;
+    background-color: white;
+    color: black;
+    height:390px;
+    width: 350px;
+    margin-left:775px;
+    margin-top:690px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.box7{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    position: absolute;
+    background-color: white;
+    color: black;
+    height:390px;
+    width: 290px;
+    margin-left:1150px;
+    margin-top:690px;
+    padding-top: 15px;
+    padding-left: 10px;
+
+}
+.sidebox{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    position: absolute;
+    background-color: white;
+    color: black;
+    height:175px;
+    width: 290px;
+    margin-left:1150px;
+    margin-top:250px;
+    padding-top: 15px;
+    padding-left: 10px;
+    background-color: pink;
+}
+.sidebox2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    position: absolute;
+    background-color: rgba(0,0,0,0);
+    color: black;
+    height:175px;
+    width: 290px;
+    margin-left:1150px;
+    margin-top:475px;
+    padding-top: 15px;
+    padding-left: 10px;
+    background-color: aqua;
+}
+.signinbutton{
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 1170px;
+    color: black;
+    background-color: rgb(255, 216, 20);
+    width: 250px ;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+
+.imgone{
+    position: absolute;
+    margin-left: 50px;
+    margin-top:315px;
+}
+.imgtwo{
+    position: absolute;
+    margin-left: 430px;
+    margin-top:315px 
+}
+.imgthree{
+    position: absolute;
+    margin-left: 810px;
+    margin-top: 315px;  
+}
+.imgfour{
+    position: absolute;
+    margin-left: 430px;
+    margin-top: 760px;  
+}
+.imgfive{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 760px;
+}
+.imgsix{
+    position: absolute;
+    margin-left: 810px;
+    margin-top: 760px;
+}
+.sideboximg{
+    position: absolute;
+    margin-left: 1160px;
+    margin-top: 760px;
+}
+.sideboximg2{
+    position: absolute;
+    margin-left: 1180px;
+    margin-top: 500px;
+}
+
+
+
+
+
+
+
+/*FOOTER*/
+
+.panel1{
+    margin-top: 700px;
+    font-size: 20px;
+    height: 50px;
+    background-color: rgb(72, 87, 105);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.panel2{
+    color: white;
+    height: 330px;
+    background-color: rgb(34,47,62);
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+ul p{
+    font-weight: bold;
+    margin-top: 30px;
+}
+ul a{
+    display: block;
+    margin-top: 10px;
+    color: #DDDDDD;
+}
+.panel3{
+    height: 100px;
+    background-color: rgb(34,47,62);
+    border-top: solid 0.2px #DDDDDD;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.panel3 img{
+    height: 50px;
+    width: 120px;
+    margin-top: 30px;
+}
+.langbutton{
+    margin-top:30px;
+    background-color:rgb(34,47,62) ;
+}
+
+.panel4{
+    display:flex;
+    justify-content: space-evenly;
+    color: white;
+    background-color: rgb(18,26,34);
+}
+.panel5{
+    display:flex;
+    justify-content: space-evenly;
+    color: white;
+    background-color: rgb(18,26,34);
+    align-items: center;
+}
+
